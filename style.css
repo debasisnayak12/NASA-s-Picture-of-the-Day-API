@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 60%;
+    margin: auto;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(59,9,121,1) 36%, rgba(0,212,255,1) 91%); 
+}
+main{
+    color: #fff;
+}
+h1{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+}
+#current-image-container{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#search-form{
+    margin: 10px;
+}
+h2{
+    margin: 10px;
+}
+input,button{
+    cursor: pointer;
+}
+ul li {
+    margin: 10px;
+    /* list-style-type: none; */
+    cursor: pointer;
+}
